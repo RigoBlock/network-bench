@@ -47,8 +47,8 @@ const endpoint = {
         prod: 'https://ropsten.infura.io/metamask'
       },
       mainnet: {
-        dev: 'https://mainnet.infura.io/metamask',
-        prod: 'https://mainnet.infura.io/metamask'
+        dev: 'https://mainnet.infura.io/v3/3fe47e5272bc4d38b6f0b247d94a6cd1',
+        prod: 'https://mainnet.infura.io/v3/3fe47e5272bc4d38b6f0b247d94a6cd1'
       }
     },
     wss: {
