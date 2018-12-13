@@ -185,7 +185,7 @@ benchCreate = async (
   let Seconds_from_T1_to_T2 = dif / 1000
   let Seconds_Between_Dates = Math.abs(Seconds_from_T1_to_T2)
   logger.info(
-    `***** Chunk ${key} -> ${
+    `***** Chunk ${key} ${fromBlock} ${toBlock} -> ${
       logs.length
     } events fetched in ${Seconds_Between_Dates}s`
   )
@@ -251,7 +251,7 @@ getChunksEvents = async (chunks, startBlock, web3, networkName) => {
     })
 }
 
-let protocol = 'wss'
+let protocol = 'https'
 let networkName = MAINNET
 // let networkName = ROPSTEN
 let startBlock = 3000000
